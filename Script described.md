@@ -57,13 +57,13 @@ xx
 ```
 
 ### Save the file as _png_
-In some versions of R Studio it is possible to export the graph as _PDF_ or _JPG_, however, in my particular case the quality is not the best, hence I saved the file with the following script:
+In some versions of R Studio, it is possible to export the graph as _PDF_ or _JPG_, however, in my particular case the quality is not the best, hence I saved the file with the following script:
 
 ```
 ggsave("Bubble_plot_more.png", width = 8, height = 6, dpi = 300)
 ```
 
 ## Result graph
-This is the resulting graph. Feel free too change the settings
+This is the resulting graph. Feel free to change the settings
 
 <img width="935" alt="Screenshot 2023-08-03 at 14 20 12" src="https://github.com/srz11d/Bubble-bar-in-R/assets/135147161/7818c779-78c6-413d-b52c-2b511129a7d7">
